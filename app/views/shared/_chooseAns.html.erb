@@ -1,0 +1,28 @@
+Answer: <br>
+<input type="number" class="textBox" name="ans" id="answer">
+
+        <button  class="button" onclick="check()">submit</button>
+        <h3 id="result"></h3>
+
+		<script>
+
+		function check()
+		{
+            var ans = document.getElementById("answer").value;
+			var res = document.getElementById("result");
+            // var count = 0;
+			if (ans == 3 )
+			{
+				res.innerHTML = "correct";
+				// count = count + 1;
+			}
+			else if (ans > 3 || ans < 0 ){
+				res.innerHTML = "please enter correct options(1 to 3)";
+			}
+			else {
+				res.innerHTML = "Incorrect";
+			}
+            //  res.innerHTML = count;
+
+		}
+       </script>

@@ -1,0 +1,185 @@
+
+	<%= render partial: "shared/navbar" %>
+	<h2><%= @count %></h2>
+
+<ol>
+<h3>Choose the You're are correct answer </h3>
+
+
+
+<b>Q1)  Who is foreign minister of India? </b> <br>
+<b>1.</b> Amithsha<br>
+<b>2.</b> Nirmala Sitharam<br>
+<b>3.</b> Jaishankar<br>
+
+Answer: <br>
+<input type="number" class="textBox" name="ans" id="answer1">
+
+        <button  class="button" onclick="check()">submit</button>
+        <h3 id="result"></h3>
+
+		<script>
+
+		function check()
+		{
+            var ans = document.getElementById("answer1").value;
+			var res = document.getElementById("result");
+            // var count = 0;
+			if (ans == 3 )
+			{
+				res.innerHTML = "You're are correct";
+				// count = count + 1;
+			}
+			else if (ans > 3 || ans < 0 ){
+				res.innerHTML = "please enter correct options(1 to 3)";
+			}
+			else {
+				res.innerHTML = "Incorrect";
+			}
+            //  res.innerHTML = count;
+
+		}
+       </script>
+
+
+<b>Q2)  What is PMGKY scheme? </b> <br>
+<b>1.</b> Giving land to citizens<br>
+<b>2.</b>  Distributing Rice and wheat to citizens<br>
+<b>3.</b> Increasing pensions to senior citizens<br>
+
+Answer: <br>
+<input type="number" class="textBox" id="answer2">
+
+        <button  class="button" onclick="checkk()">submit</button>
+        <h3 id="res"></h3>
+
+		<script>
+
+		function checkk()
+		{
+            var ans = document.getElementById("answer2").value;
+			var res = document.getElementById("res");
+            // var count = 0;
+			if (ans == 2 )
+			{
+				res.innerHTML = "You're are correct";
+				// count = count + 1;
+			}
+			else if (ans > 3 || ans < 0 ){
+				res.innerHTML = "please enter correct options(1 to 3)";
+			}
+			else {
+				res.innerHTML = "Incorrect";
+			}
+            //  res.innerHTML = count;
+
+		}
+       </script>
+
+<b>Q3)  Largest state in India? </b> <br>
+<b>1.</b> TN<br>
+<b>2.</b> AP<br>
+<b>3.</b> UP<br>
+
+Answer: <br>
+<input type="number" class="textBox" id="answer3">
+
+        <button  class="button" onclick="checkkk()">submit</button>
+        <h3 id="res3"></h3>
+
+		<script>
+
+		function checkkk()
+		{
+            var ans = document.getElementById("answer3").value;
+			var res = document.getElementById("res3");
+            // var count = 0;
+			if (ans == 3 )
+			{
+				res.innerHTML = "You're are correct";
+				// count = count + 1;
+			}
+			else if (ans > 3 || ans < 0 ){
+				res.innerHTML = "please enter  correct options(1 to 3)";
+			}
+			else {
+				res.innerHTML = "Incorrect";
+			}
+            //  res.innerHTML = count;
+
+		}
+       </script>
+
+<b>Q4) Full form of UNO? </b> <br>
+<b>1.</b> Union Nations organisation<br>
+<b>2.</b> Upper National organisation<br>
+<b>3.</b> United Nations organisation<br>
+
+Answer: <br>
+<input type="number" class="textBox" id="answer4">
+
+        <button  class="button" onclick="checkkkk()">submit</button>
+        <h3 id="res4"></h3>
+
+		<script>
+
+		function checkkkk()
+		{
+            var ans = document.getElementById("answer4").value;
+			var res = document.getElementById("res4");
+            // var count = 0;
+			if (ans == 3 )
+			{
+				res.innerHTML = "You're are correct";
+				// count = count + 1;
+			}
+			else if (ans > 3 || ans < 0 ){
+				res.innerHTML = "please enter correct options(1 to 3)";
+			}
+			else {
+				res.innerHTML = "Incorrect";
+			}
+            //  res.innerHTML = count;
+
+		}
+       </script>
+
+
+<b>Q5)  Who is foreign minister of India? </b> <br>
+<b>1.</b> Amithsha<br>
+<b>2.</b> Nirmala Sitharam<br>
+<b>3.</b> Jaishankar<br>
+
+Answer: <br>
+<input type="number" class="textBox" name="ans" id="answer5">
+
+        <button  class="button" onclick="checkkkkk()">submit</button>
+        <h3 id="result5"></h3>
+
+		<script>
+
+		function checkkkkk()
+		{
+            var ans = document.getElementById("answer5").value;
+			var res = document.getElementById("result5");
+            // var count = 0;
+			if (ans == 3 )
+			{
+				res.innerHTML = "You're are correct";
+				// count = count + 1;
+			}
+			else if (ans > 3 || ans < 0 ){
+				res.innerHTML = "please enter  correct options(1 to 3)";
+			}
+			else {
+				res.innerHTML = "Incorrect";
+			}
+            //  res.innerHTML = count;
+
+		}
+       </script>
+
+<div align="right">
+<a class="btn btn-primary"  href="/secondPage1">Next Section</a>
+</div>
+

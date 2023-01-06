@@ -1,6 +1,10 @@
+
 class MainController < ApplicationController
+
   def index
-  flash[:alert] = 'invalid username or password'
-  flash[:any] = 'checking'
+    # @user = User.find(3)
+
   end
+
 end
+
