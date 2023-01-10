@@ -5,15 +5,6 @@
     def create
       @user = User.new(user_params)
 
-    # if 3==3
-    #   flash[:pass] = "password must have minimum 8 characters and includes alphabet, number and special character"
-    #   redirect_to sign_up_path
-
-  #  else
-  #   flash[:passnot] = "pass not in format"
-
-  #  end
-
 
 
 
