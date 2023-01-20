@@ -11,7 +11,9 @@
      if @user.save
         flash[:success] = "Your data saved successfully"
         redirect_to secondPage_path
-
+     elsif @user.userName == nil || @user.password == nil
+      flash[:empty] = "You need fill up the fields to move on... "
+      redirect_to sign_up_path
     elsif @user.password
           flash[:pass] = "pass must in format.. Check once the password must contain atleast 8 digits with one upper, lower letters, a number and special character"
           redirect_to sign_up_path
